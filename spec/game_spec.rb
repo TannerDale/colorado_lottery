@@ -1,6 +1,6 @@
 require './lib/game'
 
-RSpec.descride Game do
+RSpec.describe Game do
   describe 'name' do
     pick_4 = Game.new('Pick 4', 2)
 
