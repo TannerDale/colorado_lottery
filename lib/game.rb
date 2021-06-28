@@ -8,6 +8,6 @@ class Game
   end
 
   def national_drawing?
-    @nationalg
+    @national
   end
 end
