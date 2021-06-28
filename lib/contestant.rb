@@ -1,6 +1,4 @@
-require './lib/game'
-
-class Contestant
+gclass Contestant
   attr_reader :age, :state_of_residence, :spending_money, :game_interests
 
   def initialize(args)
