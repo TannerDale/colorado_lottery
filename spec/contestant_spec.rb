@@ -58,7 +58,7 @@ RSpec.describe Contestant do
                                       spending_money: 10})
 
     it 'knows if state of resideny is in CO' do
-      expect(alexander.out_of_state).to be(false)
+      expect(alexander.out_of_state?).to be(false)
     end
   end
 
