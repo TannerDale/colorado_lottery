@@ -1,4 +1,4 @@
-gclass Contestant
+class Contestant
   attr_reader :age, :state_of_residence, :spending_money, :game_interests
 
   def initialize(args)
